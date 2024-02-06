@@ -8,19 +8,43 @@ export const Questions =[
        answer : 'C'
     },
     {
-       prompt:'Which is a streaming platform',
-       optionA : "Twitter", 
-       optionB : "Twitch", 
-       optionC : "Google", 
-       optionD : "RobinHood", 
+       prompt:'"2" + "2" - "2" = ? ',
+       optionA : "2", 
+       optionB : "20", 
+       optionC : "222", 
+       optionD : "22", 
        answer : 'B'
     },
     {
-       prompt:'Best tech youtube chanel',
-       optionA : "PedroTeach", 
-       optionB : "Dev ED", 
-       optionC : "FireShip", 
-       optionD : "TechWithTim", 
+       prompt:"2 + 2 - '2' = ? ",
+       optionA : "2", 
+       optionB : "0", 
+       optionC : "4", 
+       optionD : "22", 
        answer : 'A'
+    },
+    {
+       prompt:'"2" + "2" - "2" = ?',
+       optionA : "20", 
+       optionB : "2", 
+       optionC : "4", 
+       optionD : "22", 
+       answer : 'A'
+    },
+    {
+       prompt:`console .log(typeof NaN)`,
+       optionA : "NaN", 
+       optionB : "string", 
+       optionC : "number", 
+       optionD : "undefined", 
+       answer : 'C'
+    },
+    {
+       prompt:`What does the NaN value represent in JavaScript ?`,
+       optionA : "NaN", 
+       optionB : "Not a Number", 
+       optionC : "number", 
+       optionD : "undefined", 
+       answer : 'B'
     }
 ]
