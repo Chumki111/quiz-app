@@ -21,7 +21,7 @@ const Quiz = () => {
     }
     return (
         <div className="w-[500px] h-[500px] rounded-md bg-teal-700/70 flex flex-col justify-center items-center">
-            <h1 className="text-2xl text-center md:text-3xl font-semibold text-white my-7">{Questions[currQuestion].prompt}</h1>
+            <h1 className="text-2xl text-center md:text-3xl font-semibold text-white/90 my-7">{Questions[currQuestion].prompt}</h1>
             <div className="flex flex-col justify-center items-center">
                 <button className="w-[300px] h-[50px] my-2 bg-white rounded-md border-none cursor-pointer text-lg font-semibold focus:text-orange-500 focus:outline" onClick={() => setOptionChose('A')}>{Questions[currQuestion].optionA}</button>
                 <button className="w-[300px] h-[50px] bg-white rounded-md border-none cursor-pointer text-lg font-semibold focus:text-orange-500 focus:outline" onClick={() => setOptionChose('B')}>{Questions[currQuestion].optionB}</button>
