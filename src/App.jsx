@@ -8,14 +8,14 @@ import { QuizContext } from './Helpers/Context'
 function App() {
 
   const [gameState,setGameState] = useState('menu')
- 
+ const [score,setScore] = useState(0)
 
   return (
     <>
      <div className='flex justify-center'>
-     <div className='mt-16'>
-        <h1 className='text-4xl'>Quiz App</h1>
-        <QuizContext.Provider value={{gameState,setGameState}}>
+     <div className='mt-6'>
+        <h1 className='text-4xl text-center mb-7 font-semibold'>Quiz App</h1>
+        <QuizContext.Provider value={{gameState,setGameState,score,setScore}}>
         {gameState === 'menu' && <MainMenu/>}
         {gameState === 'quiz' && <Quiz/>}
         {gameState === 'endScreen' && <EndScreen/>}
